@@ -26,15 +26,18 @@ alias gt='git commit'
 alias gp='git push'
 alias gpoh='git push origin head'
 alias gr='git remote -v'
-# alias gfu='git fetch upstream'
-# alias gfo='git fetch origin'
-# alias gmod='git merge origin/develop'
-# alias gmud='git merge upstream/develop'
-# alias gmom='git merge origin/master'
 alias gst='git stash'
 alias gsp='git stash pop'
 alias gsl='git stash list'
-# alias gsu='git stash -u'
+
+# エイリアス:rails
+alias r='rails'
+alias rc='rails c'
+alias rdm='rails db:migrate'
+alias rdr='rails db:rollback'
+alias rdms='rails db:migrate:status'
+alias rr='rails routes'
+alias rs='rails s'
 
 # 色を使用出来るようにする
 autoload -Uz colors
