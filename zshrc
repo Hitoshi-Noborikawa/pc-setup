@@ -46,9 +46,6 @@ colors
 # 日本語ファイル名を表示可能にする
 setopt print_eight_bit
 
-# cd なしでもディレクトリ移動
-setopt auto_cd
-
 # ビープ音の停止
 setopt no_beep
 
