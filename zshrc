@@ -2,14 +2,6 @@
 alias h='history'
 alias ls='ls -G'
 alias ll='ls -al'
-alias v='vim'
-alias mss='mysql.server start'
-alias so='source'
-alias be='bundle exec'
-alias ber='bundle exec ruby'
-alias d='docker'
-alias dc='docker-compose'
-alias hr='heroku run'
 
 # エイリアス:git系
 alias g='git'
